@@ -1,4 +1,19 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+    }
+}
+
 apply plugin: 'com.android.library'
+
+repositories {
+    google()
+    mavenCentral()
+}
 
 android {
     compileSdkVersion 33
