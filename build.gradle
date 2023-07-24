@@ -3,9 +3,9 @@ apply plugin: 'maven-publish'
 publishing {
     publications {
         aar(MavenPublication) {
-            groupId 'com.mxspace'
+            groupId 'com.github.jie-meng'
             artifactId 'nuisdk'
-            version '0.1.4'
+            version '0.1.5'
             artifact("$projectDir/libs/nuisdk-release.aar")
         }
     }
