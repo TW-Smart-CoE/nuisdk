@@ -5,9 +5,10 @@ publishing {
         aar(MavenPublication) {
             groupId 'com.mxspace'
             artifactId 'nuisdk'
-            version '0.1.3'
+            version '0.1.4'
             artifact("$projectDir/libs/nuisdk-release.aar")
         }
     }
 }
 
+task assemble {}
