@@ -5,7 +5,7 @@ publishing {
         aar(MavenPublication) {
             groupId 'com.github.TW-Smart-CoE'
             artifactId 'nuisdk'
-            version '0.1.7'
+            version '0.1.0'
             artifact("$projectDir/libs/nuisdk-release.aar")
         }
     }
